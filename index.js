@@ -30,7 +30,7 @@ app.post('/div',(req,res) => {
    const c=Number(a)/Number(b)
    res.json({c})
 })
-console.log(5/2)
+
 
 const PORT=3000
 app.listen(PORT,() => {
