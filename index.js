@@ -25,11 +25,11 @@ app.post('/mul',(req,res) => {
    const c=Number(a)*Number(b)
    res.json({c})
 })
-app.post('/div',(req,res) => {
-   const {a,b}=req.body
-   const c=Number(a)/Number(b)
-   res.json({c})
-})
+// app.post('/div',(req,res) => {
+//    const {a,b}=req.body
+//    const c=Number(a)/Number(b)
+//    res.json({c})
+// })
 
 
 const PORT=3000
